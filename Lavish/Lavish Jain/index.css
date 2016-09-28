@@ -1,0 +1,195 @@
+.backim{
+	
+background:url("ban1.png");background-repeat:no-repeat;background-size:100%;height:520px;margin-bottom:0;
+	padding-bottom:0;
+}
+
+.hello{
+	
+	margin-top:4%;
+	padding:0;
+	text-align:center;
+	font-size:35px;
+	font-family:sans-serif;
+	color:blue;
+
+}
+
+.flip{
+	-webkit-transform:rotateX(360deg);
+	transition:transform 0.6s ease;`
+	
+}
+.wel{
+	background-color:gray;
+	margin-top:5%;
+	color:white;
+	
+}
+.hd{
+	
+	color:rgb(220,130,50);
+	
+}
+.san{
+	font-family:sans-serif;
+	font-size:20px;
+	
+}
+
+.tech{
+	color:blue;
+	margin:5% 0 5% 7%;
+	text-align:center;
+	text-decoration:underline;
+}
+.mar{
+	
+	margin-top:14%;
+	margin-left:4%;
+}
+
+.cont{
+perspective:1000px;
+
+}
+.card{
+//border-color:rgb(50,100,170);
+//border-style:solid;
+//border-width:2%;
+margin:2% 0 0 3%;
+
+width:200px;
+height:200px;
+
+
+transition:all 1s ease-in;
+position:relative;
+-webkit-transform-style:preserve-3d;
+float:left;
+}
+.card:hover{
+
+-webkit-transform:rotateY(180deg);
+
+}
+.front,.back {
+color:rgb(255,255,255);
+text-align:center;
+
+width:200px;
+height:200px;
+
+
+position:absolute;
+background-color:rgb(70,150,200);
+-webkit-backface-visibility:hidden;
+}
+.back{
+-webkit-transform:rotateY(180deg);
+
+
+}
+.bhead,.shead{
+margin:auto;
+position:absolute;
+width:200px;
+height:200px;
+}
+.bhead{
+line-height:140px;}
+
+.shead{line-height:240px;}
+
+
+
+.add{
+	
+	color:rgb(200,100,180);
+}
+
+.marg{
+	
+	margin-left:13%;
+}
+
+.fb{
+	margin-left:12%;
+	transition:transform 1s ease;
+}
+.fb:hover{
+	
+	-webkit-transform:rotate(360deg);
+}
+	
+.twt{
+	transition:transform 1s ease;
+	margin-left:15%;
+	
+}
+.twt:hover{
+	-webkit-transform:rotate(-360deg);
+	
+}
+.git{
+	transition:transform 1s ease;
+	margin-left:18%;
+}
+.git:hover{
+	-webkit-transform:rotate(-360deg);
+}
+#paral{
+	position:relative;
+	z-index:-1;
+	
+}
+.b1{
+	color:rgb(250,200,180);font-family:sans-serif;text-shadow:5px 4px 1px rgb(150,150,150);
+}
+.cr{
+	color:blue;
+	text-decoration:underline;
+}
+.mar1{
+	margin:9% 0 0 30%;
+	transition:transform 0.6s ;
+}
+.mar1:hover{
+	transform:rotate(20deg);
+}
+.mar2{
+	margin:9% 0 0 30%;
+	transition:transform 0.6s ;
+	
+}
+.mar2:hover{
+	transform:rotate(-20deg);
+}
+.badge{
+	margin-left:20%;
+}
+
+.maar{
+	margin:3% 0 5% 5%;
+	
+	
+}
+@media screen and (max-width:1000px)
+{
+	.backim{
+		height:350px;
+	}
+	
+}
+@media screen and (max-width:680px)
+
+{
+	.backim{height:250px;}
+	
+}
+@media screen and (max-width:320px)
+{
+	.backim{
+		height:160px;
+	}
+}
